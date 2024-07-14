@@ -1,9 +1,17 @@
----
-layout: post
-title: "DockerFile 만들기"
-date: 2022-01-11
----
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DockerFile 만들기</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<header>
+    <h1>DockerFile 만들기</h1>
+    <p>Posted on 2022-01-11</p>
+</header>
+<main>
 <p><b>DockerFile 만드는 이유&nbsp;</b><br />Docker image에 필요한 OS 정보부터 패키지 설치까지 다 넣어놓음 &gt; 이미지 빌드 후 사용에 훨씬 편리함.&nbsp;</p>
 <p>&nbsp;</p>
 <p>1. DockerFile 작성 ( ubuntu 설치에 git, vim, python 등 필요한 패키지 및 pyenv 설치까지 포함된 DockerFile )&nbsp;</p>
@@ -32,3 +40,9 @@ xz-utils tk-dev</code></pre>
 <p>DockerFile 빌드 방법&nbsp;</p>
 <pre class="shell" id="code_1643874688187"><code>docker build --rm -t [컨테이너로하고싶음이름] .</code></pre>
 <p>&nbsp;</p>
+</main>
+<footer>
+    <p>&copy; 2024 My Blog. All rights reserved.</p>
+</footer>
+</body>
+</html>
