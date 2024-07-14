@@ -4,6 +4,8 @@ title: "kafka pause/resume api"
 date: 2024-07-13
 ---
 
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
 <p>kafka 를 운영할때 컨슘행위를 잠시 중단해야할 필요가 있을수도 있다.</p>
 <p>예를들어 여러 토픽에 대한 메시지 발행이 한번에 너무 많이 몰려 우선순위가 낮은 토픽을 잠시 중지시켜놓는 경우가 있을수 있다.&nbsp;</p>
 <p>&nbsp;</p>
