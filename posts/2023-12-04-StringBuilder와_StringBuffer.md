@@ -4,10 +4,6 @@ title: "StringBuilder와 StringBuffer"
 date: 2023-12-04
 ---
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-<link rel="stylesheet" href="{{ /assets/css/style.css | relative_url }}">
-
 <p>StringBuilder와 StringBuffer 모두 <u><b>문자열을 가변적으로 처리</b></u>하는 클래스이다.&nbsp;</p>
 <p>&nbsp;</p>
 <p><b>StringBuilder</b></p>
