@@ -12,11 +12,11 @@ date: 2023-01-15
 <li>testImlementation : junit5 라는 테스트 라이브러리가 build.gradle 파일에 기본적으로 들어가 있음</li>
 </ul>
 <p style="text-align: center;"><b>(아래 dependencies 영역 참고)</b></p>
-```dependencies {
+<pre id="code_1673791449262"><code>dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-}```
+}</code></pre>
 <p>* mavenCentral : 모든 라이브러리들이 들어가있는 오픈소스&nbsp;&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
