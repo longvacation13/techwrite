@@ -1,9 +1,17 @@
----
-layout: post
-title: "[spring framework] build.gradle"
-date: 2023-01-15
----
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[spring framework] build.gradle</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<header>
+    <h1>[spring framework] build.gradle</h1>
+    <p>Posted on 2023-01-15</p>
+</header>
+<main>
 <ul>
 <li>라이브러리를 어느 서버 ( 상세하게는 mavenCentral() 이라고 부름 ) 에서 받아오는 역할을 하는 파일</li>
 <li><u style="letter-spacing: 0px;">gradle이 의존관계를 모두 관리해줌</u></li>
@@ -20,3 +28,9 @@ date: 2023-01-15
 <p>* mavenCentral : 모든 라이브러리들이 들어가있는 오픈소스&nbsp;&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+</main>
+<footer>
+    <p>&copy; 2024 My Blog. All rights reserved.</p>
+</footer>
+</body>
+</html>
