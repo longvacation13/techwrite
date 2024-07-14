@@ -1,9 +1,17 @@
----
-layout: post
-title: "[Spring Framework] 공부하는 방법"
-date: 2023-01-15
----
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Spring Framework] 공부하는 방법</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<header>
+    <h1>[Spring Framework] 공부하는 방법</h1>
+    <p>Posted on 2023-01-15</p>
+</header>
+<main>
 <p>Spring 공부를 하다 보면 모르는 것들이 많이 생길 수 있다.&nbsp;</p>
 <p>여러가지 찾는 방법이 있겠지만 일단 가장 기본이 되는 방법은 공식문서(spring docs)를 사용해야 한다.&nbsp;</p>
 <p>&nbsp;</p>
@@ -16,3 +24,9 @@ date: 2023-01-15
 <li>spring boot features&nbsp;</li>
 <li>내가 원하는 문구를 검색&nbsp;</li>
 </ul>
+</main>
+<footer>
+    <p>&copy; 2024 My Blog. All rights reserved.</p>
+</footer>
+</body>
+</html>
