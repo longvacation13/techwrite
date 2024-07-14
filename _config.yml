@@ -4,3 +4,7 @@ baseurl: "/techwrite"
 url: "https://longvacation13.github.io"
 theme: jekyll-theme-cayman
 markdown: kramdown
+highlighter: rouge
+
+sass:
+  style: compressed

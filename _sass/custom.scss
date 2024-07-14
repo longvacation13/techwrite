@@ -1,0 +1,21 @@
+// _sass/custom.scss
+// 기본적인 레이아웃 조정
+body {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 1rem;
+}
+
+// 코드 블록 스타일
+pre {
+  background: #f4f4f4;
+  padding: 1rem;
+  overflow-x: auto;
+  border-radius: 5px;
+}
+
+code {
+  background: #f4f4f4;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+}
