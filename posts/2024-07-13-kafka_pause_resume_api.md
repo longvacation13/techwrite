@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.scss">
 </head>
 <body>
 <header>
@@ -128,8 +128,5 @@ JsonProducer {
 	
 }</code></pre>
 </main>
-<footer>
-    <p>&copy; 2024 My Blog. All rights reserved.</p>
-</footer>
 </body>
 </html>
