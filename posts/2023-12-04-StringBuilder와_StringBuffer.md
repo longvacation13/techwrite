@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.scss">
 </head>
 <body>
 <header>
@@ -23,8 +23,5 @@
 <p>단일 스레드 환경에서는 StringBuilder가 더 효율적임.&nbsp;</p>
 <p>멀티쓰레드 환경에서는 StringBuffer가 더 효율적임&nbsp;</p>
 </main>
-<footer>
-    <p>&copy; 2024 My Blog. All rights reserved.</p>
-</footer>
 </body>
 </html>
