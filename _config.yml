@@ -1,0 +1,6 @@
+title: Tech Write Blog
+description: My technical blog
+baseurl: "/techwrite"
+url: "https://longvacation13.github.io"
+theme: jekyll-theme-cayman
+markdown: kramdown
