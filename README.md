@@ -5,6 +5,7 @@
 - [GitHub 리포지토리](https://github.com/longvacation13/)
 - [Tistory 블로그](https://longvacation13.tistory.com/)
 
+- [GitHub 블로그](https://longvacation13.github.io/techwrite/)
 ## Posts
 
 - [kafka pause/resume api](posts/2024-07-13-kafka_pause_resume_api.md)
