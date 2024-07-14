@@ -1,0 +1,86 @@
+<p>도커는 기본적으로 linux 기반 운영체제에서 설치 및 사용이 용이합니다.</p>
+<p>Windows 는 제약사항이 있었는데 얼마전에 대부분 해소된것으로 보입니다.&nbsp;</p>
+<p>&nbsp;</p>
+<p>docker 설치 및 사용을 위한 windows 기본환경 설정은 아래 내용 참고&nbsp;</p>
+<blockquote><span style="font-family: 'Noto Serif KR';"><a href="https://www.lainyzine.com/ko/article/how-to-install-wsl2-and-use-linux-on-windows-10/">[Windows 10] WSL2 설치 및 사용법 - LainyZine</a></span></blockquote>
+<figure contenteditable="false" id="og_1638164183910"><a href="https://www.lainyzine.com/ko/article/how-to-install-wsl2-and-use-linux-on-windows-10/" rel="noopener" target="_blank">
+<div class="og-image">&nbsp;</div>
+<div class="og-text">
+<p class="og-title">[Windows 10] WSL2 설치 및 사용법</p>
+<p class="og-desc">Microsoft에서는 2020년 5월 리눅스를 윈도우와 통합해서 사용할 수 있는 WSL2를 발표했습니다. 이 글에서는 WSL2를 설치하고 사용하는 방법을 소개합니다</p>
+<p class="og-host">www.lainyzine.com</p>
+</div>
+</a></figure>
+<p>&nbsp;</p>
+<p>위 내용이 진행되었다는 전제하에 docker redis 구축을 해보겠습니다.&nbsp;</p>
+<p>&nbsp;</p>
+<pre class="html xml" id="code_1638164420295"><code># 1. redis image 다운로드 ( image는 압축파일 ) 
+$ docker pull redis 
+
+# 2. 레디스 컨테이너 활성화 
+$ docker run -d -p 6379:6379 --name [redis이름] redis 
+
+# 3. 2에서 수행한 redis container 정보 확인 
+$ docker ps 
+
+# 4. 로그 확인 
+$ docker redis [redis이름] 
+
+# 5. run redis 서버
+$ docker exec -it [redis이름] sh 
+
+# 6. 5 작업이후 redis 서버로 이동하게 되고 이후 redis cli 실행 
+$ redis-cli 
+
+# 7. test 
+$ ping 
+
+# 8. key 세팅 (test) 
+$ set name daniel 
+$ get name daniel
+
+# 9. jar 파일 배포 (terminal에서 실행)
+docker cp redis-prom-project-0.0.1-SNAPSHOT.jar my-redis:/root/data
+
+##########################################################
+##  etc  
+##########################################################
+# 1. 파일 cp 
+$ docker cp redis-prom-project-0.0.1-SNAPSHOT.jar my-redis:/root/data
+# 2. sudo (명령어 및 폴더 접근) 
+$ apt-get update &amp;&amp; apt-get install -y sudo
+
+# linux 업데이트 
+$ sudo apt-get update
+$ sudo apt-get upgrade
+
+# JAVA11 설치
+$ sudo apt-get install openjdk-11-jdk
+
+# network tools install 
+$ apt install net-tools
+
+# sudo 권한 
+$ su -
+
+# apt install iptables ( 방화벽 포트 오픈 관련 ) 
+
+# docker 네트워크 정보 확인 
+docker network inspect redis-net
+
+# firewall 관련 프로그램 install 
+apt install firewalld
+
+# jar 파일 복사 
+docker cp redis-prom-project-0.0.1-SNAPSHOT.jar my-redis-2:/data/redis-prom-project
+
+# docker container 일괄삭제
+docker container rm -f $(docker container ls -aq)
+ 
+# docker 네트워크 ip 주소 확인 
+docker inspect -f "{{ .NetworkSettings.IPAddress }}" CONTAINER_ID 이렇게 해도 되고
+docker inpect 컨테이너_id | grep IPAddress 이렇게 해도 됩니다.
+docker inspect 컨테이너id # 윈도우 powershell 
+
+# docker 파일 복사 (docker cp {파일명} {컨테이너ID:복사할경로}
+docker cp PromGcpTableMakeFileJob_20211031.log ac86ecd2f0a8:/app/rawdata</code></pre>
