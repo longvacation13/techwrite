@@ -1,8 +1,8 @@
 # longvacation13의 IT Blog
 
-## 블로그 링크
+## 링크
 
-- [GitHub 블로그](https://longvacation13.github.io/techwrite/)
+- [GitHub 리포지토리](https://github.com/longvacation13/)
 - [Tistory 블로그](https://longvacation13.tistory.com/)
 
 ## Posts
