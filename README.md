@@ -1,7 +1,7 @@
 # longvacation13의 IT Blog
 ## Posts
 
-- [[spring_framework]_build.gradle](posts/[spring_framework]_build.gradle.md)
+- 2021-11-29-도커_redis_구축하기(2).md
 - [컨테이너_관련_명령어(중지,_재시작,_시작_등등)](posts/컨테이너_관련_명령어(중지,_재시작,_시작_등등).md)
 - [docker_관련_용어_정리](posts/docker_관련_용어_정리.md)
 - [kafka_pause_resume_api](posts/kafka_pause_resume_api.md)
