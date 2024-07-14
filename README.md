@@ -1,4 +1,4 @@
-# longvacation13의 Tech Blog 입니다.
+# longvacation13의 IT Blog
 ## Posts
 
 - [[spring_framework]_build.gradle](posts/[spring_framework]_build.gradle.md)
