@@ -4,6 +4,8 @@ title: "[spring framework] build.gradle"
 date: 2023-01-15
 ---
 
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
 <ul>
 <li>라이브러리를 어느 서버 ( 상세하게는 mavenCentral() 이라고 부름 ) 에서 받아오는 역할을 하는 파일</li>
 <li><u style="letter-spacing: 0px;">gradle이 의존관계를 모두 관리해줌</u></li>
