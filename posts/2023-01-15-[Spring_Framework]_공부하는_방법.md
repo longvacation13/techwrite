@@ -4,6 +4,8 @@ title: "[Spring Framework] 공부하는 방법"
 date: 2023-01-15
 ---
 
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
 <p>Spring 공부를 하다 보면 모르는 것들이 많이 생길 수 있다.&nbsp;</p>
 <p>여러가지 찾는 방법이 있겠지만 일단 가장 기본이 되는 방법은 공식문서(spring docs)를 사용해야 한다.&nbsp;</p>
 <p>&nbsp;</p>
