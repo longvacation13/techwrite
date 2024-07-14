@@ -41,7 +41,7 @@ date: 2024-07-13
 <hr contenteditable="false" />
 <p>코드를 구현해보면 다음과 같다.&nbsp;</p>
 <h2>Controller (pause 메시지의 발행 관련 영역)&nbsp;</h2>
-```@RestController
+<pre class="java" id="code_1720928909273"><code>@RestController
 KafkaPauseResumeController {
 
 	// kafka message produce 하기 위한 서비스 클래스 
@@ -99,10 +99,10 @@ JsonProducer {
             }
         }
     }
-}```
+}</code></pre>
 <p>&nbsp;</p>
 <h2>Consumer (발행한 메시지의 소비)&nbsp;</h2>
-```KafkaListenerConsumer {
+<pre class="java" id="code_1720929573716"><code>KafkaListenerConsumer {
 	private final KafkaListenerService kafkaListenerService; 
     
     @KafkaListener(topics = "토픽명(여기서는 A 라하겠음", 
@@ -120,4 +120,4 @@ JsonProducer {
         
     }
 	
-}```
+}</code></pre>
