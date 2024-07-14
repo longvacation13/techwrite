@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.scss">
 </head>
 <body>
 <header>
@@ -39,8 +39,5 @@ xz-utils tk-dev</code></pre>
 <pre class="shell" id="code_1643874688187"><code>docker build --rm -t [컨테이너로하고싶음이름] .</code></pre>
 <p>&nbsp;</p>
 </main>
-<footer>
-    <p>&copy; 2024 My Blog. All rights reserved.</p>
-</footer>
 </body>
 </html>
