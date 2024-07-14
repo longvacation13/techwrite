@@ -1,9 +1,17 @@
----
-layout: post
-title: "StringBuilder와 StringBuffer"
-date: 2023-12-04
----
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StringBuilder와 StringBuffer</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<header>
+    <h1>StringBuilder와 StringBuffer</h1>
+    <p>Posted on 2023-12-04</p>
+</header>
+<main>
 <p>StringBuilder와 StringBuffer 모두 <u><b>문자열을 가변적으로 처리</b></u>하는 클래스이다.&nbsp;</p>
 <p>&nbsp;</p>
 <p><b>StringBuilder</b></p>
@@ -16,3 +24,9 @@ date: 2023-12-04
 <p>&nbsp;</p>
 <p>단일 스레드 환경에서는 StringBuilder가 더 효율적임.&nbsp;</p>
 <p>멀티쓰레드 환경에서는 StringBuffer가 더 효율적임&nbsp;</p>
+</main>
+<footer>
+    <p>&copy; 2024 My Blog. All rights reserved.</p>
+</footer>
+</body>
+</html>
