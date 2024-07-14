@@ -1,9 +1,17 @@
----
-layout: post
-title: "kafka pause/resume api"
-date: 2024-07-13
----
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kafka pause/resume api</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<header>
+    <h1>kafka pause/resume api</h1>
+    <p>Posted on 2024-07-13</p>
+</header>
+<main>
 <p>kafka 를 운영할때 컨슘행위를 잠시 중단해야할 필요가 있을수도 있다.</p>
 <p>예를들어 여러 토픽에 대한 메시지 발행이 한번에 너무 많이 몰려 우선순위가 낮은 토픽을 잠시 중지시켜놓는 경우가 있을수 있다.&nbsp;</p>
 <p>&nbsp;</p>
@@ -121,3 +129,9 @@ JsonProducer {
     }
 	
 }</code></pre>
+</main>
+<footer>
+    <p>&copy; 2024 My Blog. All rights reserved.</p>
+</footer>
+</body>
+</html>
