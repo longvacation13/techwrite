@@ -4,10 +4,6 @@ title: "DockerFile 만들기"
 date: 2022-01-11
 ---
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-<link rel="stylesheet" href="{{ /assets/css/style.css | relative_url }}">
-
 <p><b>DockerFile 만드는 이유&nbsp;</b><br />Docker image에 필요한 OS 정보부터 패키지 설치까지 다 넣어놓음 &gt; 이미지 빌드 후 사용에 훨씬 편리함.&nbsp;</p>
 <p>&nbsp;</p>
 <p>1. DockerFile 작성 ( ubuntu 설치에 git, vim, python 등 필요한 패키지 및 pyenv 설치까지 포함된 DockerFile )&nbsp;</p>
