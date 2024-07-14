@@ -6,7 +6,7 @@ date: 2023-01-15
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-<link rel="stylesheet" href="{{ /assets/css/style.css | relative_url }}
+<link rel="stylesheet" href="{{ /assets/css/style.css | relative_url }}">
 
 <ul>
 <li>라이브러리를 어느 서버 ( 상세하게는 mavenCentral() 이라고 부름 ) 에서 받아오는 역할을 하는 파일</li>
