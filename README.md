@@ -8,6 +8,7 @@
 
 ## Posts
 
+- [kafka 기본 구성 및 개념(2) - 토픽의 구성](posts/2024-07-18-kafka_기본_구성_및_개념(2)_-_토픽의_구성.md)
 - [kafka의 기본 구성 및 개념(1)](posts/2024-07-17-kafka의_기본_구성_및_개념(1).md)
 - [hikariCP의 maximumPoolSize, minimum idle](posts/2024-07-15-hikariCP의_maximumPoolSize,_minimum_idle.md)
 - [kafka pause/resume api](posts/2024-07-13-kafka_pause_resume_api.md)
@@ -17,4 +18,3 @@
 - [[spring framework] build.gradle](posts/2023-01-15-[spring_framework]_build.gradle.md)
 - [게임 만들기 관련](posts/2022-02-19-게임_만들기_관련.md)
 - [컨테이너 관련 명령어(중지, 재시작, 시작 등등)](posts/2022-02-04-컨테이너_관련_명령어(중지,_재시작,_시작_등등).md)
-- [docker 관련 용어 정리](posts/2022-02-03-docker_관련_용어_정리.md)
