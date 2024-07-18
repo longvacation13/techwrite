@@ -6,6 +6,8 @@
 - [Tistory 블로그](https://longvacation13.tistory.com/)
 - [GitHub 블로그](https://longvacation13.github.io/techwrite/)
 
+- [네이버 블로그](https://blog.naver.com/longvacasion)
+
 ## Posts
 
 - [kafka 기본 구성 및 개념(2) - 토픽의 구성](posts/2024-07-18-kafka_기본_구성_및_개념(2)_-_토픽의_구성.md)
