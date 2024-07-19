@@ -10,7 +10,7 @@
 ## Posts
 
 - [kafka 기본 구성 및 개념(2) - 토픽의 구성](posts/2024-07-18-kafka_기본_구성_및_개념(2)_-_토픽의_구성.md)
-- [kafka의 기본 구성 및 개념(1)](posts/2024-07-17-kafka의_기본_구성_및_개념(1).md)
+- [kafka의 기본 구성 및 개념(1)](posts/2024-07-17-kafka의_기본_구성_및_개념(1).html)
 - [hikariCP의 maximumPoolSize, minimum idle](posts/2024-07-15-hikariCP의_maximumPoolSize,_minimum_idle.md)
 - [kafka pause/resume api](posts/2024-07-13-kafka_pause_resume_api.md)
 - [전략패턴과 템플릿메서드 패턴을 활용한 정보 업데이트](posts/2024-07-13-전략패턴과_템플릿메서드_패턴을_활용한_정보_업데이트.md)
