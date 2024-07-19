@@ -9,7 +9,7 @@
 
 ## Posts
 
-- [kafka 기본 구성 및 개념(2) - 토픽의 구성](posts/2024-07-18-kafka_%EA%B8%B0%EB%B3%B8_%EA%B5%AC%EC%84%B1_%EB%B0%8F_%EA%B0%9C%EB%85%902_-_%ED%86%A0%ED%94%BD%EC%9D%98_%EA%B5%AC%EC%84%B1.md)
+- [kafka basic(2) - configuration of topic](posts/2024-07-18-kafka_%EA%B8%B0%EB%B3%B8_%EA%B5%AC%EC%84%B1_%EB%B0%8F_%EA%B0%9C%EB%85%902_-_%ED%86%A0%ED%94%BD%EC%9D%98_%EA%B5%AC%EC%84%B1.md)
 - [kafka의 기본 구성 및 개념(1)](posts/2024-07-17-kafka%EC%9D%98_%EA%B8%B0%EB%B3%B8_%EA%B5%AC%EC%84%B1_%EB%B0%8F_%EA%B0%9C%EB%85%901.md)
 - [hikariCP의 maximumPoolSize, minimum idle](posts/2024-07-15-hikariCP%EC%9D%98_maximumPoolSize_minimum_idle.md)
 - [kafka pause/resume api](posts/2024-07-13-kafka_pauseresume_api.md)
